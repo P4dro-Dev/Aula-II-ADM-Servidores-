@@ -1,4 +1,5 @@
 // Exemplos de como desenvolver objetos em JavaScript
+
 const pessoa = {
 
     nome: "Ana",
@@ -15,4 +16,6 @@ const pessoa = {
 
 };
 
-// 
+    console.log(pessoa.falar());
+    console.log(pessoa.andar());
+    console.log(pessoa.cantar());
